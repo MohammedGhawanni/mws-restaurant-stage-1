@@ -148,7 +148,7 @@ nav h1 a {
 
 @media only screen and (min-width: 768px) {
   #map{
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
@@ -369,9 +369,9 @@ nav h1 a {
     width: 100%;
   }
 
-  nav{
+  /* nav{
     height: 100%;
-  }
+  } */
 
   .inside header {
     position: fixed;
