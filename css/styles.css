@@ -19,6 +19,7 @@ body {
   background-color: #fdfdfd;
   margin: 0;
   position: relative;
+  max-width: 100%;
 }
 
 ul,
@@ -143,6 +144,12 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+}
+
+@media only screen and (min-width: 768px) {
+  #map{
+    max-width: 80%;
+  }
 }
 
 /* ====================== Restaurant Filtering ====================== */
