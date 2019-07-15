@@ -362,6 +362,10 @@ nav h1 a {
     width: 100%;
   }
 
+  nav{
+    height: 100%;
+  }
+
   .inside header {
     position: fixed;
     top: 0;
@@ -371,24 +375,17 @@ nav h1 a {
     display: flex;
   }
 
-  #breadcrumbڈ{
+  #breadcrumb{
     width: 100%;
-  }
-
-  #restaurant-container,
-  #reviews-container {
-    /* border-bottom: 1px solid #d9d9d9; */
-    /* border-top: 1px solid #fff; */
-    /* padding: 140px 40px 30px; */
-    /* width: 100%; */
-    /* top: 71%; */
-    margin-top: 50%;
+    padding: 0;
+    padding-top: 10px;
+    text-align: left;
   }
 
   .inside #map-container {
     background: blue none repeat scroll 0 0;
-    height: 30%;
-    position: fixed;
+    height: 300px;
+    position: relative;
     right: 0;
     top: 131px;
     width: 100%;
@@ -413,6 +410,7 @@ nav h1 a {
     align-content: center;
     text-align: center;
     max-width: 100%;
+    padding: 0;
 
   }
 
@@ -429,4 +427,30 @@ nav h1 a {
     margin: 0;
   }
 
+  .filter-options{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .filter-options select{
+    width: 300px;
+  }
+
+  #restaurant-container, #reviews-container{
+    width: 100%;
+    padding: 0;
+  }
+
+  .inside #footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  #footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
