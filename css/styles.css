@@ -81,6 +81,8 @@ section {
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -113,6 +115,9 @@ nav h1 a {
   font-size: 17px;
   margin: 0;
   width: calc(50% - 80px);
+  margin-top: 100px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 
 /* Display list items side by side */
@@ -323,6 +328,7 @@ nav h1 a {
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
   width: 50%;
+  margin-top: 100px;
 }
 
 #reviews-container {
@@ -373,6 +379,10 @@ nav h1 a {
     height: 100%;
   } */
 
+  #map{
+    width: 100%;
+  }
+
   .inside header {
     position: fixed;
     top: 0;
@@ -383,10 +393,16 @@ nav h1 a {
   }
 
   #breadcrumb{
+    padding: 10px 40px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+    margin: 0;
     width: 100%;
-    padding: 0;
-    padding-top: 10px;
-    text-align: left;
+    /* width: calc(50% - 80px); */
+    /* margin-top: 100px;
+    padding-bottom: 50px;
+    text-align: left; */
   }
 
   .inside #map-container {
@@ -459,5 +475,6 @@ nav h1 a {
     padding-bottom: 25px;
     padding-right: 0;
     padding-left: 0;
+    width: 100%;
   }
 }

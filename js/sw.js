@@ -2,7 +2,11 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
   '/styles/main.css',
-  '/script/main.js'
+  '/script/main.js',
+  '/css/styles.css',
+  '/data/restaurants.json',
+  '/js/main.js',
+  '/js/restaurant_info.js'
 ];
 
 self.addEventListener('install', function (event) {
